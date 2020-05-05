@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CloudCommercePro.Constants\CloudCommercePro.Constants.csproj" />
+    <ProjectReference Include="..\CloudCommercePro.Helper\CloudCommercePro.Helper.csproj" />
+    <ProjectReference Include="..\CloudCommercePro.Interfaces\CloudCommercePro.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="15.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
